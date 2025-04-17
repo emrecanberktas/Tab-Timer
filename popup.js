@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
     return `${hours}h ${minutes % 60}min ${seconds % 60}s`;
   }
 
-  // Update timer immediately and then every second
   updateTimer();
   setInterval(updateTimer, 1000);
 });
